@@ -4,10 +4,10 @@
 
 
 
-    $cena = $_GET["cena"];
-    $vrstaRobe = $_GET["vrstaRobe"];
-    $cenaHrane = $_GET["cena"] + 50 ;
-    $cenaRacunarskeOpreme = $_GET["cena"] + 350 ;
+    $cena = $_GET["cena"] ?? 0;
+    $vrstaRobe = $_GET["vrstaRobe"] ?? 0;
+    $cenaHrane = $cena + 50 ;
+    $cenaRacunarskeOpreme = $cena + 350;
     $porez = 0.1;
 
 
