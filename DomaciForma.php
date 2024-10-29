@@ -1,8 +1,6 @@
 
 
 
-
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -11,13 +9,17 @@
     </head>
     <body>
         <form action="DomaciPodaci.php" method="GET">
-            <input type="text" name="cena"><br>
+            <input type="text" name="cena">
+            <br/>
             <select name="vrstaRobe" >
                 <option>Hrana</option>
                 <option>Oprema za racunare</option>
             </select>
-            <input type="checkbox" name="porez">
-            <button type="submit">Izracuna cenu</button>
+            <br/>
+            <input type="checkbox" name="porez" id="porez">
+            <label for="porez">izracunaj porez</label>
+            <br/>
+            <button type="submit">Izracunaj cenu</button>
         </form>
     </body>
 </html>
