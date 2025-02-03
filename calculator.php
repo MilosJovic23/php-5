@@ -7,7 +7,6 @@
 
 
 
-
     $rezultatSabiranja = $_GET["Broj1"] + $_GET["Broj2"];
     $rezultatOduzimanja = $_GET["Broj1"] - $_GET["Broj2"];
 
